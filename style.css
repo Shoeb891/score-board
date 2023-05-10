@@ -1,0 +1,74 @@
+@font-face {
+  font-family: digital;
+  src: url("digital-7.ttf");
+}
+
+
+
+body {
+  text-align: center;
+  background: url("767587.jpg");
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-position: center;
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+#title {
+  margin-top: 40px;
+  background: #9b2226;
+  padding: 5px 15px;
+  border-radius: 4px;
+  text-shadow: 0px 0px 1px black;
+  display: inline-block;
+}
+
+.main {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ffffff;
+  padding: 30px;
+  box-shadow: 0 4px 10px 0 #9E9EA7;
+  background-color: rgb(222, 234, 251, .5);
+  border-radius: 20px;
+  margin: 10vh auto 10vh auto;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 10px 0 #9E9EA7;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  background: #03045e;
+  margin-top:-10px;
+}
+
+#home-el, #guest-el {
+  border: 1px solid #ffffff;
+  padding: 30px;
+  padding-bottom: 60px;
+  font-size: 100px;
+  font-family: digital;
+  color: red;
+  background-color: #14213d;
+}
+
+#sub-t {
+  display: inline-block;
+  background: #00296b;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin-bottom:-20px;
+}
+
+@media (max-width: 400px) {
+  .main {
+    width: 70vw;
+  }
+}
